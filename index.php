@@ -300,7 +300,7 @@ Gmail:yelsantos0@gmail.com
 
                     <a href="https://www.instagram.com/paperclayart18/" target="_blank"> <i class="fab fa-instagram">
                             Instagram</i></a><br>
-                    <i class="fab fa-github-square"> Github</i>
+                      <a href = "https://github.com/artIskul"><i class="fab fa-github-square"> Github</i></a>
                 </div>
 
             </div>
