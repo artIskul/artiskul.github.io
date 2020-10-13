@@ -1243,8 +1243,60 @@ input,textarea,select{
 /* End Footer */
 
 }
+/* start Media Query 768px */
+@media only screen and (min-width:1200px){
+    .hero::before{
+        background:url("wave-large.png") center no-repeat;
+        background-size: cover;
+        height: 12.7rem;   
+    }
+    .container{
+        width: 100%;
+        max-width: 65%;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
 
+    .nav-list{
+        width: 41rem;
+        height: 100vh;
+        position: fixed;
+        right: -41rem;
+        background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1500;
+        transition: all 650ms ease-in-out;
+    
+    }
+    /* start Title  */
+.title{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    margin-top: 15rem;
+}
+.title h1{
+    font-size: 10rem;
+    text-align: center;
+    
+    
+}
+.title h6{
+    color: rgba(38, 215, 238);
+    font-family: 'Righteous', cursive;
+    font-size: rem;
+    font-size: 2.5rem;
+    text-align: center;
+    /* padding-left: 1.5rem; */
+ }
+/* end Title  */
+      
+}
 
+/*End media query 768px */
 
 /* media query for waves */
 @media only screen and (min-width:1200px){
