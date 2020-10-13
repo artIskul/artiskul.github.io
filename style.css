@@ -1251,7 +1251,7 @@ input,textarea,select{
     .hero::before{
         background:url("wave-large.png") center no-repeat;
         background-size: cover;
-        height: 12.7rem;   
+        height: 17.7rem;   
     }
       
 }
