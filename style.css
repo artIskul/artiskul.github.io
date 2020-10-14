@@ -504,7 +504,7 @@ footer{
 
 /*Start media query */
 /* breakpoint 1070px */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
     /* [class*="col-"]{
         width: 100%;
     } */
@@ -714,7 +714,7 @@ footer{
 
 
 /* breakpoint 768px */
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) and (orientation: landscape) {
     /* [class*="col-"]{
         width: 100%;
     } */
@@ -864,7 +864,7 @@ footer{
 
 
 /* breakpoint 600px */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) and (orientation: landscape) {
     /* [class*="col-"]{
         width: 100%;
     } */
@@ -1244,7 +1244,7 @@ input,textarea,select{
 
 }
 /* start Media Query 768px */
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1200px) and (orientation: landscape){
     .hero::before{
         background:url("wave-large.png") center no-repeat;
         background-size: cover;
@@ -1299,7 +1299,7 @@ input,textarea,select{
 /*End media query 768px */
 
 /* media query for waves */
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1200px) and (orientation: landscape){
     .hero::before{
         background:url("wave-large.png") center no-repeat;
         background-size: cover;
