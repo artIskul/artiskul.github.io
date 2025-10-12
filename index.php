@@ -82,14 +82,15 @@ Gmail:yelsantos0@gmail.com
                         <h3>MY SELF</h3>
                     </div>
                     <p>
-                        Hi! I am Art Santos a Front End || Web Developer with a Bachelor of Science in Information Technology from
-                        the University. I am experienced in Web Development with technologies using HTML 5, CSS3,
-                        Javascript, Bootstrap, WordPress, PHP, Laravel, and intermediate in React js also in
-                        development tools like Github, Git Kraken, Sublime Text,and Visual Studio Code. When
-                        working on a new project, I like to speak with my clients so that I can have a clear
-                        understanding of their needs and vision of the
-                        project.I look forward to working with
-                        you soon.
+     Hi! I am Art Santos, currently working as a Power BI Developer, Paginated Report Developer, and Data Analyst, with a strong foundation in Front-End & Web Development. I hold a Bachelor of Science in Information Technology from the University.
+
+In my current role, I specialize in building dynamic dashboards, creating paginated reports, performing data analysis, and transforming raw data into actionable business insights. I work extensively with tools and technologies such as Power BI, DAX, Power Query, SQL, Excel, and Report Builder, allowing me to design and deliver data-driven solutions that support informed decision-making.
+
+Alongside my data work, I also have solid experience in web development using HTML5, CSS3, JavaScript, Bootstrap, WordPress, PHP, Laravel, and React.js (intermediate). I’m comfortable working with version control and development tools like GitHub, GitKraken, Sublime Text, and Visual Studio Code.
+
+When working on any project, I value open communication and collaboration to ensure a clear understanding of the client’s needs and vision. Whether it's data or design, I aim to deliver solutions that are both effective and user-friendly.
+
+I look forward to working with you!
                     </p>
                 </div>
             </div>
@@ -328,5 +329,6 @@ Gmail:yelsantos0@gmail.com
 </body>
 
 </html>
+
 
 
