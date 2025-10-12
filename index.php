@@ -147,6 +147,10 @@ Gmail:yelsantos0@gmail.com
                         <li class="portfolio-item">
                             <button class="btn" onclick="filterSelection('wordpress')"> WORDPRESS</button>
                         </li>
+                        </li>
+                               <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('pbidashboard')">PBI DASHBOARD</button>
+                        </li>
                     </ul>
                 </div>
 
@@ -323,3 +327,4 @@ Gmail:yelsantos0@gmail.com
 </body>
 
 </html>
+
