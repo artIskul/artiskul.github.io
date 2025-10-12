@@ -219,6 +219,7 @@ Gmail:yelsantos0@gmail.com
                 </div>
                 <div class="skills-group">
                     <div class="holder">
+                        <div class="bar" data-percent="85%"><span class="label second">Power BI</span></div>
                         <div class="bar" data-percent="83%"><span class="label">HTML5</span></div>
                         <div class="bar" data-percent="80%"><span class="label second">CSS3</span></div>
                         <div class="bar" data-percent="74%"><span class="label">JavaScript</span></div>
@@ -327,4 +328,5 @@ Gmail:yelsantos0@gmail.com
 </body>
 
 </html>
+
 
