@@ -229,20 +229,38 @@ nav{
 /* end Title  */
 
 /* Start About */
-.about-heading{
-   line-height: 0;
-   margin-bottom: 6rem;
-   text-align: center;
-   text-transform: uppercase;
+
+.about {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  min-height: 100vh;       /* Full height of the viewport */
+  text-align: center;      /* Center text inside */
+  padding: 50px 20px;      /* Optional spacing */
+  box-sizing: border-box;
+  background-color: #f8f8f8; /* Optional background */
 }
-.about-heading h1{
-    font-size: 9rem;
-    opacity: .3;
+
+.about .container {
+  max-width: 900px;
+  width: 100%;
 }
-.about-heading h3{
-    font-size: 3rem;
-    font-weight: 200;
+
+.about-heading h1,
+.about-heading h3 {
+  margin: 0;
+  font-weight: bold;
 }
+
+.about-heading {
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
 
 /* End About */
 
@@ -1351,6 +1369,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
