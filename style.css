@@ -233,7 +233,7 @@ nav{
 .about-heading{
    line-height: 0;
    margin-bottom: 6rem;
-   text-align: justify;
+   text-align: center;
    text-transform: uppercase;
 }
 .about-heading h1{
@@ -1352,6 +1352,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
