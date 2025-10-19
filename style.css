@@ -333,12 +333,13 @@ nav{
     color: white;
    
   } 
-/* Hide OD2 and OD3 when only default-show is active */
-.filterDiv.default-show a.default-hide {
+
+/* 1. Hide OD2 and OD3 when "SHOW ALL" is active (i.e. default-show but not show) */
+.filterDiv.default-show:not(.show) a.default-hide {
   display: none;
 }
 
-/* When the .filterDiv has .show (meaning filtered and visible), show the hidden images */
+/* 2. Show OD2 and OD3 when "PBI DASHBOARD" is clicked (show class added) */
 .filterDiv.pbidashboard.show a.default-hide {
   display: inline-block !important;
 }
@@ -1363,6 +1364,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
