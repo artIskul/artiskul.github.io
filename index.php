@@ -159,9 +159,11 @@ I look forward to working with you!
 
                 <div class="portfolio-all id=" myBtnContainer">
                     <div class="filterDiv pbidashboard">
-                        <a href="https://dentricadentalcenter.000webhostapp.com/" target="_blank"><img src="OD1.png" alt=""><br><br>
-                            <p class="btn-web">About:</p>
-                        </a>
+                        <a ><img src="OD1.png" alt=""><br><br> </a>
+                        <a ><img src="OD2.png" alt=""><br><br> </a>
+                        <a ><img src="OD3.png" alt=""><br><br> </a>
+                            <p ">About:</p>
+                       
                     </div>
 
                     <div class="filterDiv wordpress">
@@ -335,6 +337,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
