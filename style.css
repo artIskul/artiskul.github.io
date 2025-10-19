@@ -333,6 +333,16 @@ nav{
     color: white;
    
   } 
+/* Hide OD2 and OD3 when only default-show is active */
+.filterDiv.default-show a.default-hide {
+  display: none;
+}
+
+/* When .pbidashboard filter is active (no .default-show), show all images */
+.filterDiv.pbidashboard:not(.default-show) a.default-hide {
+  display: inline-block; /* or block, depending on your layout */
+}
+
 /* End Portfolio */
 
 
@@ -1352,6 +1362,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
