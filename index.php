@@ -67,7 +67,7 @@ Gmail:yelsantos0@gmail.com
                 <div class="loader"></div>
                 <div class="title">
                     <h1>aRt sAntos</h1>
-                    <h6>Front End Dev || Web Developer</h6>
+                    <h6>Power BI Dev || Front End Dev || Web Developer</h6>
                 </div>
             </div>
         </section>
@@ -330,6 +330,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
