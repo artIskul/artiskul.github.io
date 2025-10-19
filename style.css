@@ -338,9 +338,9 @@ nav{
   display: none;
 }
 
-/* When .pbidashboard filter is active (no .default-show), show all images */
-.filterDiv.pbidashboard:not(.default-show) a.default-hide {
-  display: inline-block; /* or block, depending on your layout */
+/* When the .filterDiv has .show (meaning filtered and visible), show the hidden images */
+.filterDiv.pbidashboard.show a.default-hide {
+  display: inline-block !important;
 }
 
 
@@ -1363,6 +1363,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
