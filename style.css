@@ -333,12 +333,12 @@ nav{
     color: white;
    
   } 
-
-/* 1. Hide OD2 and OD3 when "SHOW ALL" is active (i.e. default-show but not show) */
-.filterDiv.default-show a.default-hide {
+/* ✅ Hide OD2 and OD3 ONLY when 'default-show' is present and 'show' is NOT */
+.filterDiv.default-show:not(.show) a.default-hide {
   display: none;
 }
 
+/* ✅ When 'pbidashboard' is active and 'show' is added by JS, show OD2 and OD3 */
 .filterDiv.pbidashboard.show a.default-hide {
   display: inline-block !important;
 }
@@ -1386,6 +1386,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
