@@ -335,11 +335,10 @@ nav{
   } 
 
 /* 1. Hide OD2 and OD3 when "SHOW ALL" is active (i.e. default-show but not show) */
-.filterDiv.default-show:not(.show) a.default-hide {
+.filterDiv.default-show a.default-hide {
   display: none;
 }
 
-/* 2. Show OD2 and OD3 when "PBI DASHBOARD" is clicked (show class added) */
 .filterDiv.pbidashboard.show a.default-hide {
   display: inline-block !important;
 }
@@ -709,15 +708,16 @@ footer{
    
   }
 
+
 /* 1. Hide OD2 and OD3 when "SHOW ALL" is active (i.e. default-show but not show) */
-.filterDiv.default-show:not(.show) a.default-hide {
+.filterDiv.default-show a.default-hide {
   display: none;
 }
 
-/* 2. Show OD2 and OD3 when "PBI DASHBOARD" is clicked (show class added) */
 .filterDiv.pbidashboard.show a.default-hide {
   display: inline-block !important;
 }
+
 
 /* End Portfolio */
 
@@ -1173,15 +1173,16 @@ footer{
     color: white;
    
   } 
+
 /* 1. Hide OD2 and OD3 when "SHOW ALL" is active (i.e. default-show but not show) */
-.filterDiv.default-show:not(.show) a.default-hide {
+.filterDiv.default-show a.default-hide {
   display: none;
 }
 
-/* 2. Show OD2 and OD3 when "PBI DASHBOARD" is clicked (show class added) */
 .filterDiv.pbidashboard.show a.default-hide {
   display: inline-block !important;
 }
+
 
 /* End Portfolio */
 
@@ -1385,6 +1386,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
