@@ -135,6 +135,9 @@ I look forward to working with you!
 
                     <ul class="portfolio-list" id="myBtnContainer">
                         <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('pbidashboard')">PBI DASHBOARD</button>
+                        </li>
+                        <li class="portfolio-item">
                             <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
                         </li>
                         <li class="portfolio-item">
@@ -148,10 +151,6 @@ I look forward to working with you!
                         </li>
                         <li class="portfolio-item">
                             <button class="btn" onclick="filterSelection('wordpress')"> WORDPRESS</button>
-                        </li>
-                        </li>
-                               <li class="portfolio-item">
-                            <button class="btn" onclick="filterSelection('pbidashboard')">PBI DASHBOARD</button>
                         </li>
                     </ul>
                 </div>
@@ -330,6 +329,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
