@@ -124,76 +124,98 @@ I look forward to working with you!
         </section>
         <!-- End Services Section -->
 
-      <!-- Start Portfolio Section -->
-<section class="portfolio" id="portfolio">
-    <div class="container">
-        <div class="section-heading">
-            <h2>PORTFOLIO</h2>
-            <h6>My Recent Work</h6>
-        </div>
+        <!-- Start Portfolio Section -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>PORTFOLIO</h2>
+                    <h6>My Recent Work</h6>
+                </div>
+                <div class="portfolio-item">
 
-        <div class="portfolio-item">
-            <ul class="portfolio-list" id="myBtnContainer">
-                <li class="portfolio-item">
-                    <button class="btn active" onclick="filterSelection('all')">SHOW ALL</button>
-                </li>
-                <li class="portfolio-item">
-                    <button class="btn" onclick="filterSelection('pbidashboard')">PBI DASHBOARD</button>
-                </li>
-                <li class="portfolio-item">
-                    <button class="btn" onclick="filterSelection('html')">HTML/CSS/JS</button>
-                </li>
-                <li class="portfolio-item">
-                    <button class="btn" onclick="filterSelection('laravel')">LARAVEL</button>
-                </li>
-                <li class="portfolio-item">
-                    <button class="btn" onclick="filterSelection('react')">REACT.JS</button>
-                </li>
-                <li class="portfolio-item">
-                    <button class="btn" onclick="filterSelection('wordpress')">WORDPRESS</button>
-                </li>
-            </ul>
-        </div>
+                    <ul class="portfolio-list" id="myBtnContainer">
+                
+                        <li class="portfolio-item">
+                            <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+                        </li>
+                        <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('pbidashboard')">PBI DASHBOARD</button>
+                        </li>
+                        <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('html')"> HTML/CSS/JS</button>
+                        </li>
+                        <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('laravel')"> LARAVEL</button>
+                        </li>
+                        <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('react')"> REACT.JS</button>
+                        </li>
+                        <li class="portfolio-item">
+                            <button class="btn" onclick="filterSelection('wordpress')"> WORDPRESS</button>
+                    </ul>
+                </div>
 
-        <div class="portfolio-all" id="portfolioItems">
-            <!-- Only OD1 shows by default -->
-            <div class="filterDiv pbidashboard default-show">
-                <a><img src="OD1.png" alt=""><br><br></a>
-                <p>About:</p>
+
+                <div class="portfolio-all id=" myBtnContainer">
+                    <div class="filterDiv pbidashboard">
+                        <a ><img src="OD1.png" alt=""><br><br> </a>
+                        <a ><img src="OD2.png" alt=""><br><br> </a>
+                        <a ><img src="OD3.png" alt=""><br><br> </a>
+                            <p ">About:</p>
+                    </div>
+
+                    <div class="filterDiv wordpress">
+                        <a href="https://dentricadentalcenter.000webhostapp.com/" target="_blank"><img src="dentrica.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv html">
+                        <a href="https://olfupamp.000webhostapp.com/" target="_blank"><img src="olfu.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv wordpress">
+                        <a href="https://charmblogs.000webhostapp.com/" target="_blank"><img src="charm.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv html">
+                        <a href=" http://hannearby.000webhostapp.com/" target="_blank"><img src="hanapp.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv react">
+                        <a href="info.html" target=" _blank"><img src="react.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv laravel">
+                        <a href="info.html" target=" _blank"><img src="click.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv laravel">
+                        <a href="info.html" target=" _blank"><img src="webfine.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                    <div class="filterDiv html">
+                        <a href="" target=" _blank"><img src="myweb.png" alt=""><br><br>
+                            <p class="btn-web">View Website</p>
+                        </a>
+                    </div>
+
+                </div>
             </div>
-
-            <!-- OD2 hidden by default, shows when pbidashboard is selected -->
-            <div class="filterDiv pbidashboard">
-                <a><img src="OD2.png" alt=""><br><br></a>
-                <p>About:</p>
-            </div>
-
-            <!-- OD3 hidden by default, shows when pbidashboard is selected -->
-            <div class="filterDiv pbidashboard">
-                <a><img src="OD3.png" alt=""><br><br></a>
-                <p>About:</p>
-            </div>
-
-            <!-- Other categories -->
-            <div class="filterDiv wordpress">
-                <a href="https://dentricadentalcenter.000webhostapp.com/" target="_blank">
-                    <img src="dentrica.png" alt=""><br><br>
-                    <p class="btn-web">View Website</p>
-                </a>
-            </div>
-
-            <div class="filterDiv html">
-                <a href="https://olfupamp.000webhostapp.com/" target="_blank">
-                    <img src="olfu.png" alt=""><br><br>
-                    <p class="btn-web">View Website</p>
-                </a>
-            </div>
-
-            <!-- Other filterDivs continue as before -->
-        </div>
-    </div>
-</section>
-<!-- End Portfolio Section -->
+        </section>
+        <!-- End Portfolio Section -->
 
         <!-- Start Profile -->
         <section class="skill" id="skill">
@@ -313,6 +335,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
