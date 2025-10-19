@@ -159,8 +159,6 @@ I look forward to working with you!
            <!-- OD1: shown by default -->
 <div class="filterDiv pbidashboard default-show">
   <a><img src="OD1.png" alt=""></a><br><br>
-  <a class="default-hide"><img src="OD2.png" alt=""></a><br><br>
-  <a class="default-hide"><img src="OD3.png" alt=""></a><br><br>
   <p>About:</p>
 </div>
 
@@ -297,6 +295,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
