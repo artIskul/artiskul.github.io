@@ -156,17 +156,17 @@ I look forward to working with you!
                 </div>
 
 
-                <div class="portfolio-all id=" myBtnContainer">
-                       <div class="filterDiv pbidashboard">
-                          <!-- Always visible -->
-                          <a><img src="OD1.png" alt=""></a><br><br>
+<div class="filterDiv pbidashboard">
+  <!-- Always visible -->
+  <a><img src="OD1.png" alt="OD1"></a><br><br>
 
-                          <!-- Hidden by default, only shown when 'pbidashboard' is selected -->
-                          <a class="extra-img"><img src="OD2.png" alt=""></a><br><br>
-                          <a class="extra-img"><img src="OD3.png" alt=""></a><br><br>
+  <!-- These two will be hidden unless PBI DASHBOARD is selected -->
+  <a class="extra-img"><img src="OD2.png" alt="OD2"></a><br><br>
+  <a class="extra-img"><img src="OD3.png" alt="OD3"></a><br><br>
 
-                              <p>About: PBI Dashboard Project</p>
-                    </div>
+  <p>About: PBI </p>
+</div>
+
 
 
                     <div class="filterDiv wordpress">
@@ -339,6 +339,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
