@@ -156,31 +156,24 @@ I look forward to working with you!
         </div>
 
         <div class="portfolio-all" id="portfolioItems">
-            <!-- Only OD1 shows by default -->
-            <div class="filterDiv pbidashboard default-show">
-                <a><img src="OD1.png" alt=""><br><br></a>
-                <p>About:</p>
-            </div>
+           <!-- OD1: shown by default -->
+<div class="filterDiv pbidashboard default-show">
+    <a><img src="OD1.png" alt=""><br><br></a>
+    <p>About:</p>
+</div>
 
-            <!-- OD2 hidden by default, shows when pbidashboard is selected -->
-            <div class="filterDiv pbidashboard">
-                <a><img src="OD2.png" alt=""><br><br></a>
-                <p>About:</p>
-            </div>
+<!-- OD2: hidden until 'pbidashboard' is clicked -->
+<div class="filterDiv pbidashboard">
+    <a><img src="OD2.png" alt=""><br><br></a>
+    <p>About:</p>
+</div>
 
-            <!-- OD3 hidden by default, shows when pbidashboard is selected -->
-            <div class="filterDiv pbidashboard">
-                <a><img src="OD3.png" alt=""><br><br></a>
-                <p>About:</p>
-            </div>
+<!-- OD3: hidden until 'pbidashboard' is clicked -->
+<div class="filterDiv pbidashboard">
+    <a><img src="OD3.png" alt=""><br><br></a>
+    <p>About:</p>
+</div>
 
-            <!-- Other categories -->
-            <div class="filterDiv wordpress">
-                <a href="https://dentricadentalcenter.000webhostapp.com/" target="_blank">
-                    <img src="dentrica.png" alt=""><br><br>
-                    <p class="btn-web">View Website</p>
-                </a>
-            </div>
 
             <div class="filterDiv html">
                 <a href="https://olfupamp.000webhostapp.com/" target="_blank">
@@ -313,6 +306,7 @@ I look forward to working with you!
 </body>
 
 </html>
+
 
 
 
