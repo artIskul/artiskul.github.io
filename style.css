@@ -333,16 +333,6 @@ nav{
     color: white;
    
   } 
-/* Hide OD2 and OD3 by default */
-.filterDiv.pbidashboard .extra-img {
-  display: none;
-}
-
-/* Show OD2 and OD3 only when the pbidashboard div is actively filtered (i.e. has 'show' class) */
-.filterDiv.pbidashboard.show .extra-img {
-  display: inline-block;
-}
-
 
 /* End Portfolio */
 
@@ -707,19 +697,6 @@ footer{
     color: white;
    
   }
-
-
-/* Hide OD2 and OD3 by default */
-.filterDiv.pbidashboard .extra-img {
-  display: none;
-}
-
-/* Show OD2 and OD3 only when the pbidashboard div is actively filtered (i.e. has 'show' class) */
-.filterDiv.pbidashboard.show .extra-img {
-  display: inline-block;
-}
-
-
 /* End Portfolio */
 
 /* Start Contact*/
@@ -1175,17 +1152,6 @@ footer{
    
   } 
 
-/* Hide OD2 and OD3 by default */
-.filterDiv.pbidashboard .extra-img {
-  display: none;
-}
-
-/* Show OD2 and OD3 only when the pbidashboard div is actively filtered (i.e. has 'show' class) */
-.filterDiv.pbidashboard.show .extra-img {
-  display: inline-block;
-}
-
-
 /* End Portfolio */
 
 /* Start Skills */
@@ -1388,6 +1354,7 @@ input,textarea,select{
 }
 
 /*End media query */
+
 
 
 
