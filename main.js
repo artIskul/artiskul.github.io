@@ -5,127 +5,62 @@ Gmail:yelsantos0@gmail.com
 */
 
 
-let selectElement = (e) => document.querySelector(e);
+// Shorthand selector
+const select = (e) => document.querySelector(e);
 
-selectElement('.open').addEventListener('click', () => {    
-    selectElement('.nav-list').classList.add('active');
+// Navigation toggle
+select('.open').addEventListener('click', () => {
+  select('.nav-list').classList.add('active');
 });
 
-selectElement('.close').addEventListener('click', () => {
-    selectElement('.nav-list').classList.remove('active');
+select('.close').addEventListener('click', () => {
+  select('.nav-list').classList.remove('active');
 });
 
-selectElement('#close').addEventListener('click', () => {
-    selectElement('.nav-list').classList.remove('active');
-});
+// Filtering
+function filterSelection(category) {
+  const items = document.getElementsByClassName("filterDiv");
+  const categoryClass = category === "all" ? "" : category;
 
-
-// Filter Elements
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+  Array.from(items).forEach(item => {
+    item.classList.remove("show");
+    if (item.className.indexOf(categoryClass) > -1) {
+      item.classList.add("show");
     }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
   });
 }
 
+// Active button
+const btnContainer = document.getElementById("myBtnContainer");
+const btns = btnContainer.getElementsByClassName("btn");
 
-
-//code for bar chart
-setTimeout(function start (){
-  
-  $('.bar').each(function(i){  
-    var $bar = $(this);
-    $(this).append('<span class="count"></span>')
-    setTimeout(function(){
-      $bar.css('width', $bar.attr('data-percent'));      
-    }, i*100);
+Array.from(btns).forEach(btn => {
+  btn.addEventListener("click", function() {
+    const current = btnContainer.querySelector(".active");
+    if (current) current.classList.remove("active");
+    this.classList.add("active");
   });
- 
-$('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).parent('.bar').attr('data-percent')
-    }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now) +'%');
-        }
-    });
 });
- 
-}, 500)
 
+// Skill bar animation
+setTimeout(() => {
+  $('.bar').each(function(i) {
+    const $bar = $(this);
+    $bar.append('<span class="count"></span>');
+    setTimeout(() => {
+      $bar.css('width', $bar.attr('data-percent'));
+    }, i * 100);
+  });
 
-
-// Script fro submit button alternative of PHP
-// function sendEmail(){
-//   var name = $("#name");
-//   var email = $("#email");
-//   var subject = $("#subject");
-//   var body = $("#body");
-
-//   if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
-//     $.ajax({
-//       url: 'contact.php',
-//       method: 'post',
-//       dataType: 'json',
-//       data:{
-//         name: name.val(),
-//         email: email.val(),
-//         subject: subject.val(),
-//         body: body.val()
-//       }, success: function(response){
-//         $('#myForm')[0].reset();
-//         $('.sent-notification').text("Message sent successfully.");
-//       }
-//     });
-//   }
-// }
-// function isNotEmpty(caller){
-//   if(caller.val() == ""){
-//     caller.css('border','1px solid red');
-//     return false;
-//   }
-//   else
-//   {
-//     caller.css('border', '');
-//     return true;
-//   }
-
-// }
+  $('.count').each(function() {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).parent('.bar').attr('data-percent')
+    }, {
+      duration: 2000,
+      easing: 'swing',
+      step: function(now) {
+        $(this).text(Math.ceil(now) + '%');
+      }
+    });
+  });
+}, 500);
